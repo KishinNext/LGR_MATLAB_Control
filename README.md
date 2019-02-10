@@ -21,7 +21,7 @@ _Primero es necesario descomprimir el archivo, y estar en el directorio C:\Users
 
 _Abrir el archivo Diseno.m, que se encuentra en el respectiva carpeta._
 
-![archivo](https://user-images.githubusercontent.com/45041472/52539271-27cbac80-2d4a-11e9-803c-5b62b04e0493.JPG)
+![archivo](https://user-images.githubusercontent.com/45041472/52539319-bb9d7880-2d4a-11e9-971e-51af9bfa09c6.JPG)
 
 _Ya con el archivo .m abierto, simplemente ejecuta el código, y se abrirá el panel de diseño.
 
