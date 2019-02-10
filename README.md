@@ -11,17 +11,15 @@ Mira **Deployment** para conocer como desplegar el proyecto.
 
 ### Pre-requisitos 📋
 
-_Que cosas necesitas para instalar el software y como instalarlas_
+_Solo se necesita tener instalado Matlab en las versión igual o superior a la R2018a._
 
-```
-Da un ejemplo
-```
+![matlab](https://user-images.githubusercontent.com/45041472/52538936-a292c880-2d46-11e9-97cb-5565695fd2ec.JPG)
 
 ### Instalación 🔧
 
-_Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose_
+_Primero es necesario descomprimir el archivo, y estar en el directorio C:\Users\USUARIO\'lugar de descarga'\LGRFinal\LGR-master\Programa1.0_
 
-_Dí cómo será ese paso_
+_Abrir el archivo Diseno.m, que se encuentra en el respectiva carpeta._
 
 ```
 Da un ejemplo
