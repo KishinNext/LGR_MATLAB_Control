@@ -88,62 +88,46 @@ _En primer luagr se abre el archivo control2.m y se ingresa la planta, la cual s
 
 _En en la imagen se puede apreciar ciertos pasos que son necesarios seguir, en primer lugar se ingresa la fucnión de trasferencia en el recuadro y se oprime enter, inmediatamente se puede ver la representación de la planta en tiempo conitinuo y discreto, de manera opcional se puede ingresar el tiempo de muestreo de manera manual, en caso contrario al presionar enter el programa calcula el periodo de muestreo automaticamente, los siguientes pasos no son necesarios (4,5), los cuales sirven para graficar la respuesta de la planta, al pasar el paso 6 se puede pasaral diseño de la planata, imagen que se muestra acontinuación._
 
+![disejemplo1](https://user-images.githubusercontent.com/45041472/52540614-82203980-2d59-11e9-9e2c-070a207035c4.jpg)
+
+_Para continuar con esta venta se selecciona las opciones de diseño en las cuales se quiere trabajar, en este caso, la opción zita y y el número de muestras por oscilación, en seguida se da al botón continuar e inmediatamente se ve el polo deseado el ángulo del controlador y la función de tranferencia de la planta, adicionalmente se puede seleccionar condiciones de estado, en caso que se deseé. En seguida se selecciona el tipo de controlador, cuando se selecciona la función de transferencia del controlador aparecerá instantaneamente, en el paso 5, se puede ver datos importantes con este diseño, y finalmente en el paso 6 se puede ver el resultado correspondiente, el cúal, cumple con los requerimientos del problema._
+
 
 ### Analice las pruebas end-to-end 🔩
 
 _Explica que verifican estas pruebas y por qué_
 
-```
-Da un ejemplo
-```
-
-### Y las pruebas de estilo de codificación ⌨️
-
-_Explica que verifican estas pruebas y por qué_
-
-```
-Da un ejemplo
-```
 
 ## Deployment 📦
 
-_Agrega notas adicionales sobre como hacer deploy_
+_Si deseas colaborar en el desarrollo de la aplicación, escríbenos y pronto entraremos encontracto contigo._
 
 ## Construido con 🛠️
 
-_Menciona las herramientas que utilizaste para crear tu proyecto_
+_Las herramientas utilizadas._
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - El framework web usado
-* [Maven](https://maven.apache.org/) - Manejador de dependencias
-* [ROME](https://rometools.github.io/rome/) - Usado para generar RSS
+* [Matlab](https://la.mathworks.com/products/matlab.html?requestedDomain=) - Diseño de GUI y procesos
 
-## Contribuyendo 🖇️
-
-Por favor lee el [CONTRIBUTING.md](https://gist.github.com/villanuevand/xxxxxx) para detalles de nuestro código de conducta, y el proceso para enviarnos pull requests.
 
 ## Versionado 📌
 
-Usamos [SemVer](http://semver.org/) para el versionado. Para todas las versiones disponibles, mira los [tags en este repositorio](https://github.com/tu/proyecto/tags).
+La versión del programa es la 1.0
 
 ## Autores ✒️
 
-_Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
 
-* **Andrés Villanueva** - *Trabajo Inicial* - [villanuevand](https://github.com/villanuevand)
-* **Fulanito Detal** - *Documentación* - [fulanitodetal](#fulanito-de-tal)
+* **Jairo Garcia** - *Trabajo en general* - [villanuevand](https://github.com/KishinNext)
+* **Fabio Bombiela** - *Trabajo en general* - [fulanitodetal](#fulanito-de-tal)
 
-También puedes mirar la lista de todos los [contribuyentes](https://github.com/your/project/contributors) quíenes han participado en este proyecto. 
 
 ## Licencia 📄
 
-Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [LICENSE.md](LICENSE.md) para detalles
+Este proyecto está bajo la Licencia  - mira el archivo [LICENSE.md](LICENSE.md) para detalles, te agradecemos citar el pryecto, de igualmanera avisarnos cuando utilizas el código correspondiente.
 
 ## Expresiones de Gratitud 🎁
 
-* Comenta a otros sobre este proyecto 📢
-* Invita una cerveza 🍺 a alguien del equipo. 
-* Da las gracias públicamente 🤓.
-* etc.
+* Agradecemos a la profesora Diana Ovalle por apoyo presentado en el desarrollo de este aplicativo, de antemano agredecemos todo el tiempo invertido.
+
 
 
 
