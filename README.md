@@ -19,7 +19,7 @@ _Solo se necesita tener instalado Matlab en las versión igual o superior a la R
 
 _Primero es necesario descomprimir el archivo, y estar en el directorio C:\Users\USUARIO\'lugar de descarga'\LGRFinal\LGR-master\Programa1.0_
 
-_Abrir el archivo Diseno.m, que se encuentra en el respectiva carpeta._
+_Abrir el archivo control2.m, que se encuentra en el respectiva carpeta._
 
 ![archivo](https://user-images.githubusercontent.com/45041472/52539319-bb9d7880-2d4a-11e9-971e-51af9bfa09c6.JPG)
 
@@ -74,6 +74,12 @@ _Acontinuación se presenta una pequeña demo_
 ## Ejecutando las pruebas ⚙️
 
 _Los problemas que se utilizan acontinuación se sacarón del libro Sistemas de control en tiempo discreto del Ogata, problemas B-4-9._
+
+_Ejemplo: Refiriéndonos al sistema de control digital mostrado en la figura 4-67, diseñe un controlador digital G„(z) tal que el factor de amortiguamiento relativo £ de los polos dominantes en lazo cerrado sea 0.5 y el número de muestras por ciclo de la oscilación senoidal amortiguada sea 8. Suponga que el período de muestreo es de 0.1 seg es decir T= 0.1. Determine la constante de error de velocidad estática. También, determine la respuesta del sistema diseñado a una entrada escalón unitario._
+
+
+
+_EN primer luagr se abre el archivo control2.m y s
 
 ### Analice las pruebas end-to-end 🔩
 
