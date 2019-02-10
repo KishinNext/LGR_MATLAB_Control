@@ -116,8 +116,8 @@ La versión del programa es la 1.0
 ## Autores ✒️
 
 
-* **Jairo Garcia** - *Trabajo en general* - [villanuevand](https://github.com/KishinNext)
-* **Fabio Bombiela** - *Trabajo en general* - [fulanitodetal](#fulanito-de-tal)
+* **Jairo Garcia** - *Trabajo en general* - [JairoGarcia](https://github.com/KishinNext)
+* **Fabio Bombiela** - *Trabajo en general* - [FabioBombiela](#fulanito-de-tal)
 
 
 ## Licencia 📄
