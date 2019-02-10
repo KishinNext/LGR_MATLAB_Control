@@ -93,10 +93,6 @@ _En en la imagen se puede apreciar ciertos pasos que son necesarios seguir, en p
 _Para continuar con esta venta se selecciona las opciones de diseño en las cuales se quiere trabajar, en este caso, la opción zita y y el número de muestras por oscilación, en seguida se da al botón continuar e inmediatamente se ve el polo deseado el ángulo del controlador y la función de tranferencia de la planta, adicionalmente se puede seleccionar condiciones de estado, en caso que se deseé. En seguida se selecciona el tipo de controlador, cuando se selecciona la función de transferencia del controlador aparecerá instantaneamente, en el paso 5, se puede ver datos importantes con este diseño, y finalmente en el paso 6 se puede ver el resultado correspondiente, el cúal, cumple con los requerimientos del problema._
 
 
-### Analice las pruebas end-to-end 🔩
-
-_Explica que verifican estas pruebas y por qué_
-
 
 ## Deployment 📦
 
