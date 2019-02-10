@@ -38,10 +38,15 @@ _Cuando se da click en el botón Diseño, se abre la siguiente ventana._
 _La ventana permite configurar el diseño del controlador, permitiendo en primer lugar seleccionar entre diferentes parejas de condiciones, cada configuración permite diferente opciones de rediseño automático, lo cual puede ser práctico para implementar controladores adecuados para plantas de diseño específico._
 
 _1. zita, y Wn, el LGR tiene que pasar por el polo Pd._
+
 _2. zita y nuúmero de ciclos en la respuesta escalón, el LGR tiene que pasar por el polo Pd._
+
 _3. ts y Mp, se debe poder rediseñar hasta que la respuesta escalón satisfaga los criterios._
+
 _4. td y zita, se debe rediseñar hasta que la respuesta al escalón satisfaga ts. _
+
 _5. ts y número de ciclos en la respuesta escalón, se debe rediseñar hasta que la respuesta al escalón satisfaga ts._
+
 _6. número de ciclos en la respuesta escalosn y Mp, se debe rediseñar hasta que la respuesta al escalón satisfaga Mp_
 
 _En caso de que la pareja de datos no sea suficiente para poder desarrollar el diseño, se le informa al usuario. También existe la opción de seleccionar el tipo de controlador a diseñar de un menú de diseños posibles, diferenciando controladores que aportan ángulos positivos y negativos para la respectiva planta, de manera adicional el progrma retorna la función de transferencia del controlador digital C(z), y puede representar la respuesta escalón del sistema en lazo cerrado, igualmente se puede dibujar el LGR, la respuesta rampa y parabola._
