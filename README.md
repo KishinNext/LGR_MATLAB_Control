@@ -75,15 +75,18 @@ _Acontinuación se presenta una pequeña demo_
 
 _Los problemas que se utilizan acontinuación se sacarón del libro Sistemas de control en tiempo discreto del Ogata, problemas B-4-9._
 
-_Ejemplo: Refiriéndonos al sistema de control digital mostrado en la figura 4-67, diseñe un controlador digital G„(z) tal que el factor de amortiguamiento relativo £ de los polos dominantes en lazo cerrado sea 0.5 y el número de muestras por ciclo de la oscilación senoidal amortiguada sea 8. Suponga que el período de muestreo es de 0.1 seg es decir T= 0.1. Determine la constante de error de velocidad estática. También, determine la respuesta del sistema diseñado a una entrada escalón unitario._
+_Ejemplo: Refiriéndonos al sistema de control digital mostrado en la figura 4-67, diseñe un controlador digital G„(z) tal que el factor de amortiguamiento relativo zita de los polos dominantes en lazo cerrado sea 0.5 y el número de muestras por ciclo de la oscilación senoidal amortiguada sea 8. Suponga que el período de muestreo es de 0.1 seg es decir T= 0.1. Determine la constante de error de velocidad estática. También, determine la respuesta del sistema diseñado a una entrada escalón unitario._
 
 
 ![image](https://user-images.githubusercontent.com/45041472/52540191-dd9bf880-2d54-11e9-904d-1d26fa1f478a.png)
 
 
 
-_EN primer luagr se abre el archivo control2.m y se ingresa la planta, la cual se puede ver en la imagen anterior.
+_En primer luagr se abre el archivo control2.m y se ingresa la planta, la cual se puede ver en la imagen anterior._
 
+![ejemplo1](https://user-images.githubusercontent.com/45041472/52540155-65cdce00-2d54-11e9-837a-fda971ad42c7.jpg)
+
+_En en la imagen se puede apreciar ciertos pasos que son necesarios seguir, en primer lugar se ingresa la fucnión de trasferencia en el recuadro y se oprime enter, inmediatamente se puede ver la representación de la planta en tiempo conitinuo y discreto, de manera opcional se puede ingresar el tiempo de muestreo de manera manual, en caso contrario al presionar enter el programa calcula el periodo de muestreo automaticamente, los siguientes pasos no son necesarios (4,5), los cuales sirven para graficar la respuesta de la planta, al pasar el paso 6 se puede pasaral diseño de la planata, imagen que se muestra acontinuación._
 
 
 ### Analice las pruebas end-to-end 🔩
