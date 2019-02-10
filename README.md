@@ -78,8 +78,13 @@ _Los problemas que se utilizan acontinuación se sacarón del libro Sistemas de 
 _Ejemplo: Refiriéndonos al sistema de control digital mostrado en la figura 4-67, diseñe un controlador digital G„(z) tal que el factor de amortiguamiento relativo £ de los polos dominantes en lazo cerrado sea 0.5 y el número de muestras por ciclo de la oscilación senoidal amortiguada sea 8. Suponga que el período de muestreo es de 0.1 seg es decir T= 0.1. Determine la constante de error de velocidad estática. También, determine la respuesta del sistema diseñado a una entrada escalón unitario._
 
 
+![image](https://user-images.githubusercontent.com/45041472/52540191-dd9bf880-2d54-11e9-904d-1d26fa1f478a.png)
 
-_EN primer luagr se abre el archivo control2.m y s
+
+
+_EN primer luagr se abre el archivo control2.m y se ingresa la planta, la cual se puede ver en la imagen anterior.
+
+
 
 ### Analice las pruebas end-to-end 🔩
 
