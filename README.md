@@ -31,18 +31,38 @@ _En el programa se puede ver las opciones elegibles, como lo es ingresar la func
 
 _De manera opcional se da la opción de graficar la planta (sin controlador), permite graficar el LGR, la respuesta escalón, rampa y parabola en tiempo continuo y tiempo discreto. Igualmete como algo adiciónal se encuentra las principales carácteristicas de la planta en tiempo continuo  en lazo cerrado, y la representación por código LaTex de la función de tranferencia en lazo abierto en tiempo continuo y discreto._
 
+_Cuando se da click en el botón Diseño, se abre la siguiente ventana._
 
-_Y repite_
+![diseno](https://user-images.githubusercontent.com/45041472/52539611-4cc21e80-2d4e-11e9-8f0d-1eb203f9378c.JPG)
 
-```
-hasta finalizar
-```
+_La ventana permite configurar el diseño del controlador, permitiendo en primer lugar seleccionar entre diferentes parejas de condiciones, cada configuración permite diferente opciones de rediseño automático, lo cual puede ser práctico para implementar controladores adecuados para plantas de diseño específico._
 
-_Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para una pequeña demo_
+_1. zita, y Wn, el LGR tiene que pasar por el polo Pd._
+_2. zita y nuúmero de ciclos en la respuesta escalón, el LGR tiene que pasar por el polo Pd._
+_3. ts y Mp, se debe poder rediseñar hasta que la respuesta escalón satisfaga los criterios._
+_4. td y zita, se debe rediseñar hasta que la respuesta al escalón satisfaga ts. _
+_5. ts y número de ciclos en la respuesta escalón, se debe rediseñar hasta que la respuesta al escalón satisfaga ts._
+_6. número de ciclos en la respuesta escalosn y Mp, se debe rediseñar hasta que la respuesta al escalón satisfaga Mp_
+
+_En caso de que la pareja de datos no sea suficiente para poder desarrollar el diseño, se le informa al usuario. También existe la opción de seleccionar el tipo de controlador a diseñar de un menú de diseños posibles, diferenciando controladores que aportan ángulos positivos y negativos para la respectiva planta, de manera adicional el progrma retorna la función de transferencia del controlador digital C(z), y puede representar la respuesta escalón del sistema en lazo cerrado, igualmente se puede dibujar el LGR, la respuesta rampa y parabola._
+
+_La opción de seleccionar si se tiene encuaneta condiciones de error de estado estacionario va ligado a la pareja seleccionada, de la siguiente manera._
+
+_1. sin condición de error de estado estacionario_
+_2. ep constante_
+_3. ep=0_
+_4. ep=0 y ev constante_
+_5. ev=0_
+_6. ev=0 y ea constante_
+_7. ea=0_
+
+
+
+_Acontinuación se presenta una pequeña demo_
 
 ## Ejecutando las pruebas ⚙️
 
-_Explica como ejecutar las pruebas automatizadas para este sistema_
+_Los problemas que se utilizan acontinuación se sacarón del libro Sistemas de control en tiempo discreto del Ogata, problemas B-4-9._
 
 ### Analice las pruebas end-to-end 🔩
 
