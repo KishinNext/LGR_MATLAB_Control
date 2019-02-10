@@ -23,7 +23,13 @@ _Abrir el archivo Diseno.m, que se encuentra en el respectiva carpeta._
 
 ![archivo](https://user-images.githubusercontent.com/45041472/52539319-bb9d7880-2d4a-11e9-971e-51af9bfa09c6.JPG)
 
-_Ya con el archivo .m abierto, simplemente ejecuta el código, y se abrirá el panel de diseño.
+_Ya con el archivo .m abierto, simplemente ejecuta el código, y se abrirá el panel de diseño._
+
+![pagprincipal](https://user-images.githubusercontent.com/45041472/52539357-3d8da180-2d4b-11e9-9d1c-630db3a74f61.JPG)
+
+_En el programa se puede ver las opciones elegibles, como lo es ingresar la función de transferencia de la planta en tiempo continuo, es importante mencionar que la variable 's' se interpreta como una variable simbólica, con el fin de definir fácilmente cualquier función de tranferencia, incluyendo las que involucran retardos. Iguelmente la opción de ingresa el valor del periodo de muestreo en segundos, en caso contrario, se calculará de manera automática el mejor periodo de muestreo para la planta ingresada, igualmente esta opción identifica si la planta presenta retardo._
+
+_De manera opcional se da la opción de graficar la planta (sin controlador), permite graficar el LGR, la respuesta escalón, rampa y parabola en tiempo continuo y tiempo discreto. Igualmete como algo adiciónal se encuentra las principales carácteristicas de la planta en tiempo continuo  en lazo cerrado, y la representación por código LaTex de la función de tranferencia en lazo abierto en tiempo continuo y discreto._
 
 
 _Y repite_
