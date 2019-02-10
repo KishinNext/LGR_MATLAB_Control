@@ -49,11 +49,17 @@ _En caso de que la pareja de datos no sea suficiente para poder desarrollar el d
 _La opción de seleccionar si se tiene encuaneta condiciones de error de estado estacionario va ligado a la pareja seleccionada, de la siguiente manera._
 
 _1. sin condición de error de estado estacionario_
+
 _2. ep constante_
+
 _3. ep=0_
+
 _4. ep=0 y ev constante_
+
 _5. ev=0_
+
 _6. ev=0 y ea constante_
+
 _7. ea=0_
 
 
