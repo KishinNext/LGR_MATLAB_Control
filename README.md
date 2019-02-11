@@ -98,6 +98,7 @@ _Para continuar con esta venta se selecciona las opciones de diseño en las cual
 
 _Diagrama de flujo._
 
+![diagrama de flujo lgr](https://user-images.githubusercontent.com/45041472/52541792-0200d080-2d67-11e9-96d9-0ca67a547bd5.jpeg)
 
 ## Construido con 🛠️
 
