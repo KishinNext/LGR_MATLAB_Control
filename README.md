@@ -11,7 +11,7 @@ Mira **Deployment** para conocer como desplegar el proyecto.
 
 ### Pre-requisitos 📋
 
-_Solo se necesita tener instalado Matlab en las versión igual o superior a la R2018a._
+_Solo se necesita tener instalado Matlab en la versión igual o superior a la R2018a._
 
 ![matlab](https://user-images.githubusercontent.com/45041472/52538936-a292c880-2d46-11e9-97cb-5565695fd2ec.JPG)
 
@@ -19,7 +19,7 @@ _Solo se necesita tener instalado Matlab en las versión igual o superior a la R
 
 _Primero es necesario descomprimir el archivo, y estar en el directorio C:\Users\USUARIO\'lugar de descarga'\LGRFinal\LGR-master\Programa1.0_
 
-_Abrir el archivo control2.m, que se encuentra en el respectiva carpeta._
+_Abrir el archivo control2.m, que se encuentra en la respectiva carpeta._
 
 ![archivo](https://user-images.githubusercontent.com/45041472/52539319-bb9d7880-2d4a-11e9-971e-51af9bfa09c6.JPG)
 
@@ -27,7 +27,7 @@ _Ya con el archivo .m abierto, simplemente ejecuta el código, y se abrirá el p
 
 ![pagprincipal](https://user-images.githubusercontent.com/45041472/52539357-3d8da180-2d4b-11e9-9d1c-630db3a74f61.JPG)
 
-_En el programa se puede ver las opciones elegibles, como lo es ingresar la función de transferencia de la planta en tiempo continuo, es importante mencionar que la variable 's' se interpreta como una variable simbólica, con el fin de definir fácilmente cualquier función de tranferencia, incluyendo las que involucran retardos. Iguelmente la opción de ingresa el valor del periodo de muestreo en segundos, en caso contrario, se calculará de manera automática el mejor periodo de muestreo para la planta ingresada, igualmente esta opción identifica si la planta presenta retardo._
+_En el programa se puede ver las opciones elegibles, como lo es ingresar la función de transferencia de la planta en tiempo continuo, es importante mencionar que la variable 's' se interpreta como una variable simbólica, con el fin de definir fácilmente cualquier función de tranferencia, incluyendo las que involucran retardos. Iguelmente la opción de ingresa del valor del periodo de muestreo en segundos, en caso contrario, se calculará de manera automática el mejor periodo de muestreo para la planta ingresada, igualmente esta opción identifica si la planta presenta retardo._
 
 _De manera opcional se da la opción de graficar la planta (sin controlador), permite graficar el LGR, la respuesta escalón, rampa y parabola en tiempo continuo y tiempo discreto. Igualmete como algo adiciónal se encuentra las principales carácteristicas de la planta en tiempo continuo  en lazo cerrado, y la representación por código LaTex de la función de tranferencia en lazo abierto en tiempo continuo y discreto._
 
@@ -96,7 +96,8 @@ _Para continuar con esta venta se selecciona las opciones de diseño en las cual
 
 ## Deployment 📦
 
-_Si deseas colaborar en el desarrollo de la aplicación, escríbenos y pronto entraremos encontracto contigo._
+_Diagrama de flujo._
+
 
 ## Construido con 🛠️
 
