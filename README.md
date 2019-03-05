@@ -102,7 +102,15 @@ muestreo se supone de 0.1 seg, es decir T = 0.1._
 
 _En primer luagr se abre el archivo control2.m y se ingresa la planta, la cual se puede ver en la imagen anterior._
 
+![frec1](https://user-images.githubusercontent.com/45041472/53777543-c1105d80-3ec7-11e9-8031-854b17ee6149.PNG)
 
+_En en la imagen se puede apreciar ciertos pasos que son necesarios seguir, en primer lugar se ingresa la fucnión de trasferencia en el recuadro y se oprime enter, inmediatamente se puede ver la representación de la planta en tiempo conitinuo y discreto, de manera opcional se puede ingresar el tiempo de muestreo de manera manual, en caso contrario al presionar enter el programa calcula el periodo de muestreo automaticamente, los siguientes pasos no son necesarios (4,5), los cuales sirven para graficar la respuesta de la planta, al pasar el paso 6 se puede pasaral diseño de la planata, imagen que se muestra acontinuación._
+
+
+![frec2](https://user-images.githubusercontent.com/45041472/53777545-c1a8f400-3ec7-11e9-8d7c-c75f80c6376f.PNG)
+
+
+_Para continuar con esta venta se selecciona las opciones de diseño en las cuales se quiere trabajar, en este caso, la opción de margen de ganancia y el margen de frecuencia, en seguida se da al botón continuar e inmediatamente la función de tranferencia de la planta, adicionalmente se puede seleccionar condiciones de estado, si se desea. En seguida se selecciona el tipo de controlador, cuando se selecciona la función de transferencia del controlador aparecerá instantaneamente, en el paso 5, se puede ver las gráficas de la respuesta en frecuencia y en tiempo discreto, finalmente en el paso 6 se puede ver datos importantes con este diseño, el cúal, cumple con los requerimientos del problema._
 
 ## Deployment 📦
 
