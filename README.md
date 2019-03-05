@@ -70,17 +70,17 @@ _7. ea=0_
 _Para el tiempo minimo, se tiene los siguientes requerimientos
 _
 
-_1. Entrada escalon
+_1. Entrada escalon_
 
-_2.  Entrada escalon y Kv constante
+_2.  Entrada escalon y Kv constante_
 
-_3. Entrada rampa
+_3. Entrada rampa_
 
-_4. Entrada rampa y Ka constante
+_4. Entrada rampa y Ka constante_
 
-_5. Entrada Parabola
+_5. Entrada Parabola_
 
-_6. Visualizacion de la respuesta y del controlador diseñado.
+_6. Visualizacion de la respuesta y del controlador diseñado._
 
 
 _Acontinuación se presenta una pequeña demo_
@@ -109,23 +109,23 @@ _Para continuar con esta venta se selecciona las opciones de diseño en las cual
 
 ## Ejecutando las pruebas para Tiempo minimo ⚙️
 
-_Para el controlador de tiempo minimo, se tiene una planta de tiempo continuio, en donde el usuario puede ingresar, asimismo, el usuario debe proporcionar el periodo de muestreo para poder pasar al tiempo discreto.
+_Para el controlador de tiempo minimo, se tiene una planta de tiempo continuio, en donde el usuario puede ingresar, asimismo, el usuario debe proporcionar el periodo de muestreo para poder pasar al tiempo discreto._
 
 ![p1](https://user-images.githubusercontent.com/46770621/53777329-fff1e380-3ec6-11e9-848e-e0a25b457e38.png)
 
-_Despues de ingresar el usuario presiona sobre el boton de Diseño y se redirecciona a la nueva ventana en donde puede elegir las señales de entrada a seguir.
+_Despues de ingresar el usuario presiona sobre el boton de Diseño y se redirecciona a la nueva ventana en donde puede elegir las señales de entrada a seguir._
 
 ![p2](https://user-images.githubusercontent.com/46770621/53777347-10a25980-3ec7-11e9-99ee-2211738f7323.png)
 
-_Por tanto si desea seguir la entrada escalon, se selecciona la casilla "Escalon" y se procede a dar click en el boton confirmar, despues del tiempo de procesamiento, y de mostrar en pantalla el controlador, se puede observar la respuesta a escalon oprimiendo sobre el boton llamado "Escalon".
+_Por tanto si desea seguir la entrada escalon, se selecciona la casilla "Escalon" y se procede a dar click en el boton confirmar, despues del tiempo de procesamiento, y de mostrar en pantalla el controlador, se puede observar la respuesta a escalon oprimiendo sobre el boton llamado "Escalon"._
 
 ![p3](https://user-images.githubusercontent.com/46770621/53777389-32034580-3ec7-11e9-97f0-7127b525a121.png)
 
-_Ahora si se desea una constante de velocidad constante es necesario escoger la señal escalon y agregar el valor "Kv" en la casilla respectiva, ya que para poder cumplir con este requerimiento es necesario que siga la señal escalon y no la señal rampa.
+_Ahora si se desea una constante de velocidad constante es necesario escoger la señal escalon y agregar el valor "Kv" en la casilla respectiva, ya que para poder cumplir con este requerimiento es necesario que siga la señal escalon y no la señal rampa._
 
 ![p4](https://user-images.githubusercontent.com/46770621/53777430-5d863000-3ec7-11e9-842c-e52f7584e247.png)
 
-_Por tanto si desea seguir la entrada parabola, se selecciona la casilla "Parabola" y se procede a dar click en el boton confirmar, despues del tiempo de procesamiento, y de mostrar en pantalla el controlador, se puede observar la respuesta a una entrada parabola oprimiendo sobre el boton llamado "Parabola".
+_Por tanto si desea seguir la entrada parabola, se selecciona la casilla "Parabola" y se procede a dar click en el boton confirmar, despues del tiempo de procesamiento, y de mostrar en pantalla el controlador, se puede observar la respuesta a una entrada parabola oprimiendo sobre el boton llamado "Parabola"._
 
 ![p5](https://user-images.githubusercontent.com/46770621/53777459-71319680-3ec7-11e9-958e-fdfb51ff6bf6.png)
 ## Deployment 📦
@@ -134,7 +134,7 @@ _Diagrama de flujo programa control por LGR._
 
 ![diagrama de flujo lgr](https://user-images.githubusercontent.com/45041472/52541792-0200d080-2d67-11e9-96d9-0ca67a547bd5.jpeg)
 
-_Diagrama de flujo porgrama control por tiempo minimo.
+_Diagrama de flujo porgrama control por tiempo minimo._
 
 ![diagrama de flujo Tiempo minimo](https://user-images.githubusercontent.com/46770621/53777244-b86b5780-3ec6-11e9-88e2-9ca8724afee0.png)
 
