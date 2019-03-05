@@ -106,6 +106,27 @@ _En en la imagen se puede apreciar ciertos pasos que son necesarios seguir, en p
 
 _Para continuar con esta venta se selecciona las opciones de diseño en las cuales se quiere trabajar, en este caso, la opción zita y y el número de muestras por oscilación, en seguida se da al botón continuar e inmediatamente se ve el polo deseado el ángulo del controlador y la función de tranferencia de la planta, adicionalmente se puede seleccionar condiciones de estado, en caso que se deseé. En seguida se selecciona el tipo de controlador, cuando se selecciona la función de transferencia del controlador aparecerá instantaneamente, en el paso 5, se puede ver datos importantes con este diseño, y finalmente en el paso 6 se puede ver el resultado correspondiente, el cúal, cumple con los requerimientos del problema._
 
+
+## Ejecutando las pruebas para Frecuencia⚙️
+
+Ejemplo B-4-14:Considere el sistema de control digital de la figura. Al usar el método del diagrama de Bode en d
+plano w, diseñe un controlador digital de tal forma que el margen de fase sea de 60°, el margen de
+ganancia de 12 dB o más, y la constante de error de velocidad estática de 5 seg-1. El período de
+muestreo se supone de 0.1 seg, es decir T = 0.1.
+
+
+
+_En primer luagr se abre el archivo control2.m y se ingresa la planta, la cual se puede ver en la imagen anterior._
+
+![frec1](https://user-images.githubusercontent.com/45041472/53777543-c1105d80-3ec7-11e9-8031-854b17ee6149.PNG)
+
+_En en la imagen se puede apreciar ciertos pasos que son necesarios seguir, en primer lugar se ingresa la fucnión de trasferencia en el recuadro y se oprime enter, inmediatamente se puede ver la representación de la planta en tiempo conitinuo y discreto, de manera opcional se puede ingresar el tiempo de muestreo de manera manual, en caso contrario al presionar enter el programa calcula el periodo de muestreo automaticamente, los siguientes pasos no son necesarios (4,5), los cuales sirven para graficar la respuesta de la planta, al pasar el paso 6 se puede pasaral diseño de la planata, imagen que se muestra acontinuación._
+
+![frec2](https://user-images.githubusercontent.com/45041472/53777545-c1a8f400-3ec7-11e9-8d7c-c75f80c6376f.PNG)
+
+_Para continuar con esta venta se selecciona las opciones de diseño en las cuales se quiere trabajar, en este caso, la opción margen de fase y margen de ganancia, en seguida se da al botón continuar e inmediatamente se ve  la función de tranferencia de la planta, adicionalmente se puede seleccionar condiciones de estado, en caso que se deseé. En seguida se selecciona el tipo de controlador, cuando se selecciona la función de transferencia del controlador aparecerá instantaneamente, en el paso 5, se puede gráficas relacionadas con este diseño, y finalmente en el paso 6 datos respectivos de diseño, el cúal, cumple con los requerimientos del problema._
+
+
 ## Ejecutando las pruebas para Tiempo minimo ⚙️
 
 _Para el controlador de tiempo minimo, se tiene una planta de tiempo continuio, en donde el usuario puede ingresar, asimismo, el usuario debe proporcionar el periodo de muestreo para poder pasar al tiempo discreto._
@@ -138,7 +159,7 @@ _Diagrama de flujo programa control por Frecuencia._
 ![copia de diagrama de flujo frecuencia](https://user-images.githubusercontent.com/45041472/53778238-09c91600-3eca-11e9-88d2-174a6bf240b8.jpeg)
 
 
-_Diagrama de flujo programa control por tiempo minimo._
+_Diagrama de flujo porgrama control por tiempo minimo._
 
 ![diagrama de flujo Tiempo minimo](https://user-images.githubusercontent.com/46770621/53777244-b86b5780-3ec6-11e9-88e2-9ca8724afee0.png)
 
