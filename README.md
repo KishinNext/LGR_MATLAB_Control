@@ -114,7 +114,7 @@ plano w, diseñe un controlador digital de tal forma que el margen de fase sea d
 ganancia de 12 dB o más, y la constante de error de velocidad estática de 5 seg-1. El período de
 muestreo se supone de 0.1 seg, es decir T = 0.1.
 
-
+![ejem](https://user-images.githubusercontent.com/45041472/53777365-1d26b200-3ec7-11e9-8470-cfbad4571f79.PNG)
 
 _En primer luagr se abre el archivo control2.m y se ingresa la planta, la cual se puede ver en la imagen anterior._
 
