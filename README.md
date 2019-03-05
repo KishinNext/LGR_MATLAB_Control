@@ -67,13 +67,28 @@ _6. ev=0 y ea constante_
 
 _7. ea=0_
 
+_Para el tiempo minimo, se tiene los siguientes requerimientos
+_
+
+_1. Entrada escalon
+
+_2.  Entrada escalon y Kv constante
+
+_3. Entrada rampa
+
+_4. Entrada rampa y Ka constante
+
+_5. Entrada Parabola
+
+_6. Visualizacion de la respuesta y del controlador diseñado.
 
 
 _Acontinuación se presenta una pequeña demo_
 
-## Ejecutando las pruebas ⚙️
 
-_Los problemas que se utilizan acontinuación se sacarón del libro Sistemas de control en tiempo discreto del Ogata, problemas B-4-9, B-4-16._
+## Ejecutando las pruebas para LGR ⚙️
+
+_Los problemas que se utilizan acontinuación se sacarón del libro Sistemas de control en tiempo discreto del Ogata, problemas B-4-9._
 
 _Ejemplo: Refiriéndonos al sistema de control digital mostrado en la figura 4-67, diseñe un controlador digital G„(z) tal que el factor de amortiguamiento relativo zita de los polos dominantes en lazo cerrado sea 0.5 y el número de muestras por ciclo de la oscilación senoidal amortiguada sea 8. Suponga que el período de muestreo es de 0.1 seg es decir T= 0.1. Determine la constante de error de velocidad estática. También, determine la respuesta del sistema diseñado a una entrada escalón unitario._
 
@@ -92,31 +107,36 @@ _En en la imagen se puede apreciar ciertos pasos que son necesarios seguir, en p
 
 _Para continuar con esta venta se selecciona las opciones de diseño en las cuales se quiere trabajar, en este caso, la opción zita y y el número de muestras por oscilación, en seguida se da al botón continuar e inmediatamente se ve el polo deseado el ángulo del controlador y la función de tranferencia de la planta, adicionalmente se puede seleccionar condiciones de estado, en caso que se deseé. En seguida se selecciona el tipo de controlador, cuando se selecciona la función de transferencia del controlador aparecerá instantaneamente, en el paso 5, se puede ver datos importantes con este diseño, y finalmente en el paso 6 se puede ver el resultado correspondiente, el cúal, cumple con los requerimientos del problema._
 
-_Ejemplo de frecuencia:Considere el sistema de control digital de la figura. Al usar el método del diagrama de Bode en d
-plano w, diseñe un controlador digital de tal forma que el margen de fase sea de 60°, el margen de
-ganancia de 12 dB o más, y la constante de error de velocidad estática de 5 seg-1. El período de
-muestreo se supone de 0.1 seg, es decir T = 0.1._
+## Ejecutando las pruebas para Tiempo minimo ⚙️
 
-![ejem](https://user-images.githubusercontent.com/45041472/53777365-1d26b200-3ec7-11e9-8470-cfbad4571f79.PNG)
+_Para el controlador de tiempo minimo, se tiene una planta de tiempo continuio, en donde el usuario puede ingresar, asimismo, el usuario debe proporcionar el periodo de muestreo para poder pasar al tiempo discreto.
 
+![p1](https://user-images.githubusercontent.com/46770621/53777329-fff1e380-3ec6-11e9-848e-e0a25b457e38.png)
 
-_En primer luagr se abre el archivo control2.m y se ingresa la planta, la cual se puede ver en la imagen anterior._
+_Despues de ingresar el usuario presiona sobre el boton de Diseño y se redirecciona a la nueva ventana en donde puede elegir las señales de entrada a seguir.
 
-![frec1](https://user-images.githubusercontent.com/45041472/53777543-c1105d80-3ec7-11e9-8031-854b17ee6149.PNG)
+![p2](https://user-images.githubusercontent.com/46770621/53777347-10a25980-3ec7-11e9-99ee-2211738f7323.png)
 
-_En en la imagen se puede apreciar ciertos pasos que son necesarios seguir, en primer lugar se ingresa la fucnión de trasferencia en el recuadro y se oprime enter, inmediatamente se puede ver la representación de la planta en tiempo conitinuo y discreto, de manera opcional se puede ingresar el tiempo de muestreo de manera manual, en caso contrario al presionar enter el programa calcula el periodo de muestreo automaticamente, los siguientes pasos no son necesarios (4,5), los cuales sirven para graficar la respuesta de la planta, al pasar el paso 6 se puede pasaral diseño de la planata, imagen que se muestra acontinuación._
+_Por tanto si desea seguir la entrada escalon, se selecciona la casilla "Escalon" y se procede a dar click en el boton confirmar, despues del tiempo de procesamiento, y de mostrar en pantalla el controlador, se puede observar la respuesta a escalon oprimiendo sobre el boton llamado "Escalon".
 
+![p3](https://user-images.githubusercontent.com/46770621/53777389-32034580-3ec7-11e9-97f0-7127b525a121.png)
 
-![frec2](https://user-images.githubusercontent.com/45041472/53777545-c1a8f400-3ec7-11e9-8d7c-c75f80c6376f.PNG)
+_Ahora si se desea una constante de velocidad constante es necesario escoger la señal escalon y agregar el valor "Kv" en la casilla respectiva, ya que para poder cumplir con este requerimiento es necesario que siga la señal escalon y no la señal rampa.
 
+![p4](https://user-images.githubusercontent.com/46770621/53777430-5d863000-3ec7-11e9-842c-e52f7584e247.png)
 
-_Para continuar con esta venta se selecciona las opciones de diseño en las cuales se quiere trabajar, en este caso, la opción de margen de ganancia y el margen de frecuencia, en seguida se da al botón continuar e inmediatamente la función de tranferencia de la planta, adicionalmente se puede seleccionar condiciones de estado, si se desea. En seguida se selecciona el tipo de controlador, cuando se selecciona la función de transferencia del controlador aparecerá instantaneamente, en el paso 5, se puede ver las gráficas de la respuesta en frecuencia y en tiempo discreto, finalmente en el paso 6 se puede ver datos importantes con este diseño, el cúal, cumple con los requerimientos del problema._
+_Por tanto si desea seguir la entrada parabola, se selecciona la casilla "Parabola" y se procede a dar click en el boton confirmar, despues del tiempo de procesamiento, y de mostrar en pantalla el controlador, se puede observar la respuesta a una entrada parabola oprimiendo sobre el boton llamado "Parabola".
 
+![p5](https://user-images.githubusercontent.com/46770621/53777459-71319680-3ec7-11e9-958e-fdfb51ff6bf6.png)
 ## Deployment 📦
 
-_Diagrama de flujo._
+_Diagrama de flujo programa control por LGR._
 
 ![diagrama de flujo lgr](https://user-images.githubusercontent.com/45041472/52541792-0200d080-2d67-11e9-96d9-0ca67a547bd5.jpeg)
+
+_Diagrama de flujo porgrama control por tiempo minimo.
+
+![diagrama de flujo Tiempo minimo](https://user-images.githubusercontent.com/46770621/53777244-b86b5780-3ec6-11e9-88e2-9ca8724afee0.png)
 
 ## Construido con 🛠️
 
@@ -127,7 +147,7 @@ _Las herramientas utilizadas._
 
 ## Versionado 📌
 
-La versión del programa es la 1.0
+La versión del programa es la 2.0
 
 ## Autores ✒️
 
