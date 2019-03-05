@@ -67,6 +67,27 @@ _6. ev=0 y ea constante_
 
 _7. ea=0_
 
+
+_Para el diseño en frecuencia, se tiene los siguientes requerimientos._
+
+
+
+
+_Primero es necesario descomprimir el archivo, y estar en el directorio C:\Users\USUARIO\'lugar de descarga'\LGRAlpha y abrir el programa "Control2.m"_
+
+_1. Diseño con margen de fase y margen de ganancia._
+
+_2. Diseño con margen de fase y frecuencia de cruce de ganancia._
+
+_3. Error de posición_
+
+_4. Error de aceleración._
+
+_5. Error de velocidad._
+
+
+_Primero es necesario descomprimir el archivo, y estar en el directorio C:\Users\USUARIO\'lugar de descarga'\Tiempominimo y abrir el programa "Control2.m"_
+
 _Para el tiempo minimo, se tiene los siguientes requerimientos._
 
 _1. Entrada escalon._
