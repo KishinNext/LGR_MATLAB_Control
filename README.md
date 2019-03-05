@@ -133,6 +133,11 @@ _Diagrama de flujo programa control por LGR._
 
 ![diagrama de flujo lgr](https://user-images.githubusercontent.com/45041472/52541792-0200d080-2d67-11e9-96d9-0ca67a547bd5.jpeg)
 
+_Diagrama de flujo programa control por Frecuencia._
+
+![copia de diagrama de flujo frecuencia](https://user-images.githubusercontent.com/45041472/53778238-09c91600-3eca-11e9-88d2-174a6bf240b8.jpeg)
+
+
 _Diagrama de flujo porgrama control por tiempo minimo._
 
 ![diagrama de flujo Tiempo minimo](https://user-images.githubusercontent.com/46770621/53777244-b86b5780-3ec6-11e9-88e2-9ca8724afee0.png)
