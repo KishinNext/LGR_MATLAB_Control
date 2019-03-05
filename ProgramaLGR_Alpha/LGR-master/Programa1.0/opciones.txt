@@ -1,0 +1,32 @@
+%*********************Primera Opción***************************************
+function [Polo,Angulo]=PrimeraOpcion(planta,Periodo,zita,wn)
+s=tf('s');
+Polo=exp(Periodo*(-zita*wn+i*wn*sqrt(1-zita^2)));
+PlantaDiscreta=c2d(planta,Periodo,'zoh');
+GAngulo=angle(evalfr(PlantaDiscreta,Polo))*180/pi;
+Angulo=wrapTo180(180-GAngulo);
+end
+
+%*********************Tercera opción***************************************
+function [Polo,Angulo]=TerceraOpcion(planta,Periodo,ts,mp)
+mp=mp/100;
+zita=abs(log(mp))/sqrt(pi^2+(log(mp))^2);
+wn=4/(zita*ts);
+s=tf('s');
+Polo=exp(Periodo*(-zita*wn+i*wn*sqrt(1-zita^2)));
+PlantaDiscreta=c2d(planta,Periodo,'zoh');
+GAngulo=angle(evalfr(PlantaDiscreta,Polo))*180/pi;
+Angulo=wrapTo180(180-GAngulo);
+end
+
+%*********************Quinta opcion****************************************
+function [Polo,Angulo]=QuintaOpcion(planta,Periodo,ts,n)
+wd=2*pi/n*Periodo;
+zita=4/(ts*sqrt(wd^2+(16/ts^2)))
+wn=4/(zita*ts);
+s=tf('s');
+Polo=exp(Periodo*(-zita*wn+i*wn*sqrt(1-zita^2)));
+PlantaDiscreta=c2d(planta,Periodo,'zoh');
+GAngulo=angle(evalfr(PlantaDiscreta,Polo))*180/pi;
+Angulo=wrapTo180(180-GAngulo);
+end
