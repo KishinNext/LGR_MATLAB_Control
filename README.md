@@ -67,18 +67,17 @@ _6. ev=0 y ea constante_
 
 _7. ea=0_
 
-_Para el tiempo minimo, se tiene los siguientes requerimientos
-_
+_Para el tiempo minimo, se tiene los siguientes requerimientos._
 
-_1. Entrada escalon_
+_1. Entrada escalon._
 
-_2.  Entrada escalon y Kv constante_
+_2.  Entrada escalon y Kv constante._
 
 _3. Entrada rampa_
 
-_4. Entrada rampa y Ka constante_
+_4. Entrada rampa y Ka constante._
 
-_5. Entrada Parabola_
+_5. Entrada Parabola._
 
 _6. Visualizacion de la respuesta y del controlador diseñado._
 
@@ -133,10 +132,6 @@ _Por tanto si desea seguir la entrada parabola, se selecciona la casilla "Parabo
 _Diagrama de flujo programa control por LGR._
 
 ![diagrama de flujo lgr](https://user-images.githubusercontent.com/45041472/52541792-0200d080-2d67-11e9-96d9-0ca67a547bd5.jpeg)
-
-_Diagrama de flujo programa control por Frecuencia._
-
-![copia de diagrama de flujo frecuencia](https://user-images.githubusercontent.com/45041472/53778238-09c91600-3eca-11e9-88d2-174a6bf240b8.jpeg)
 
 _Diagrama de flujo porgrama control por tiempo minimo._
 
