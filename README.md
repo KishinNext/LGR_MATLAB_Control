@@ -73,7 +73,7 @@ _Acontinuación se presenta una pequeña demo_
 
 ## Ejecutando las pruebas ⚙️
 
-_Los problemas que se utilizan acontinuación se sacarón del libro Sistemas de control en tiempo discreto del Ogata, problemas B-4-9._
+_Los problemas que se utilizan acontinuación se sacarón del libro Sistemas de control en tiempo discreto del Ogata, problemas B-4-9, B-4-16._
 
 _Ejemplo: Refiriéndonos al sistema de control digital mostrado en la figura 4-67, diseñe un controlador digital G„(z) tal que el factor de amortiguamiento relativo zita de los polos dominantes en lazo cerrado sea 0.5 y el número de muestras por ciclo de la oscilación senoidal amortiguada sea 8. Suponga que el período de muestreo es de 0.1 seg es decir T= 0.1. Determine la constante de error de velocidad estática. También, determine la respuesta del sistema diseñado a una entrada escalón unitario._
 
@@ -91,6 +91,11 @@ _En en la imagen se puede apreciar ciertos pasos que son necesarios seguir, en p
 ![disejemplo1](https://user-images.githubusercontent.com/45041472/52540614-82203980-2d59-11e9-9e2c-070a207035c4.jpg)
 
 _Para continuar con esta venta se selecciona las opciones de diseño en las cuales se quiere trabajar, en este caso, la opción zita y y el número de muestras por oscilación, en seguida se da al botón continuar e inmediatamente se ve el polo deseado el ángulo del controlador y la función de tranferencia de la planta, adicionalmente se puede seleccionar condiciones de estado, en caso que se deseé. En seguida se selecciona el tipo de controlador, cuando se selecciona la función de transferencia del controlador aparecerá instantaneamente, en el paso 5, se puede ver datos importantes con este diseño, y finalmente en el paso 6 se puede ver el resultado correspondiente, el cúal, cumple con los requerimientos del problema._
+
+_Ejemplo de frecuencia:Considere el sistema de control digital de la figura. Al usar el método del diagrama de Bode en d
+plano w, diseñe un controlador digital de tal forma que el margen de fase sea de 60°, el margen de
+ganancia de 12 dB o más, y la constante de error de velocidad estática de 5 seg-1. El período de
+muestreo se supone de 0.1 seg, es decir T = 0.1._
 
 
 
